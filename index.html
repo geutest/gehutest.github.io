@@ -199,27 +199,28 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
         <div class="offer-section">
             <img src="./GEHU_files/offer.png" alt="GEHU offer">
         </div>
-        <ul class="enquire-now-form-content">
-            
+        
+	    <ul class="enquire-now-form-content" id="enquiry-form-visibility" style="visibility: hidden ; right:40%;">
+
             <div id="divform">
                 <div class="form-group">
                     <input name="txtname" type="text" id="txtname" class="form-control" placeholder="*Name">
                     <span id="RequiredFieldValidator1" class="star_valid" style="color:Red;display:none;">*</span>
-                    
+
                 </div>
                 <div class="form-group">
-                    
+
                     <input name="txtphone" type="text" id="txtphone" class="form-control" placeholder="*Phone">
                     <span id="RequiredFieldValidator2" class="star_valid" style="color:Red;display:none;">*</span>
                 </div>
                 <div class="form-group">
-                    
+
                     <input name="txtemail" type="text" id="txtemail" class="form-control" placeholder="*Email">
                     <span id="RegularExpressionValidator1" class="star_valid" style="color:Red;display:none;">*</span>
                     <span id="RequiredFieldValidator7" class="star_valid" style="color:Red;display:none;">*</span>
                 </div>
                 <div class="form-group">
-                    
+
                     <input name="txtcity" type="text" id="txtcity" class="form-control" placeholder="*City">
                     <span id="RequiredFieldValidator4" class="star_valid" style="color:Red;display:none;">*</span>
                 </div>
@@ -414,18 +415,21 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
                 <div class="form-group">
                     <div class="">
                         <div>
-                            <input type="submit" name="btnsubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnsubmit&quot;, &quot;&quot;, true, &quot;enquiry&quot;, &quot;&quot;, false, false))" id="btnsubmit" class="btn-submit">
+													  <input type="submit" name="btnsubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnsubmit&quot;, &quot;&quot;, true, &quot;enquiry&quot;, &quot;&quot;, false, false))" id="btnsubmit" class="btn-submit">
+													<input type="button" name="btnclose" value="Close" onclick="document.getElementById('enquiry-form-visibility').style.visibility = 'hidden'" id="btnsubmit" class="btn-submit" style="margin: 0 3%">
+
                         </div>
                     </div>
                 </div>
             </div>
             <div id="lblmessage" class="error_text">
-                
+
             </div>
-            
-	    </ul>
+
+        </ul>
     </div></form>
-    
+
+	    
 		<div class="research-paper-section-wrapper gehu">
         <div class="container">
 					<div class="row">
