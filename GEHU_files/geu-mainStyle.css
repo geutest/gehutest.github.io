@@ -195,8 +195,8 @@ ul.enquire-now-form {
 .navbar.navbar-fixed-top.fixed-theme,
 .navbar-brand,
 .navbar-container {
-    transition: 0.8s;
-    -webkit-transition: 0.8s;
+    transition: 1.34s;
+    -webkit-transition: 1.34s;
 }
 
 div#navbar {
@@ -223,10 +223,10 @@ ul.enquire-now.nav.navbar-nav {
 }
 
 .shrink {
-    width: 200px;
+
     padding-top: 20px;
-    transition: 0.8s;
-    -webkit-transition: 0.8s;
+    transition: 1.34s;
+    -webkit-transition: 1.34s;
     top: 0;
     border-width: 0 0 1px;
 }
