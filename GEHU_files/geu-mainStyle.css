@@ -208,7 +208,7 @@ div#navbar h1 {
     font-family: 'Roboto-Black';
     font-size: 20px;
     font-weight: 700;
-    padding: 0 93px;
+    padding: 0 0px;
     text-align: right;
     margin: 6px 0;
 }
@@ -303,7 +303,7 @@ ul.dropdown-menu {
 
 /* san menu start */
 ul.enquire-now-form {
-	
+
     float: right;
 }
 
@@ -337,7 +337,7 @@ ul.enquire-now-form-content {
     position: absolute;
     top: 0;
     z-index: 1000;
-    right: 87px;
+    right: 0px;
     display: block;
     float: right;
     padding: 5px 0;
@@ -352,7 +352,7 @@ ul.enquire-now-form-content {
     border: 1px solid rgba(0, 0, 0, .15);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    width: 365px;
+    width: 319px;
     opacity: 0.9; padding-top:25px;
 }
 
@@ -561,7 +561,7 @@ input#captchaGen-number {
     font-size: 20px;
     color: #7a7a7a;
     border-top:  15px solid #dcdcdc;
-    border-right:  10px solid #dcdcdc; 
+    border-right:  10px solid #dcdcdc;
     border-bottom: 15px solid #dcdcdc;
     border-left: 10px solid #dcdcdc;
 }
@@ -824,7 +824,7 @@ p.graphicEra.lead {
 .researchPaperSection .each-records .media-body strong {
     margin: 0 0 10px;
     display: inline-block;
-    width: 100%; 
+    width: 100%;
 }
 
 
@@ -975,7 +975,7 @@ a.accordion-toggle.collapsed {
     font-family: Roboto-Regular;
     font-size: 14px;
     padding: 15px;
-    background: #dc2e27; 
+    background: #dc2e27;
     color: #fff;
     margin: 0;
 }
