@@ -16,36 +16,36 @@
             img.src = "/Handler.ashx?query=" + Math.random();
         }
     </script>
-<script type="text/javascript"> 
-    (function() { 
-        var f = function() { 
-              EF.init({ eventType: "transaction", 
-                        transactionProperties : "ev_LP_Visit=1&ev_transid=<transid>", 
-                        segment : "",  
-                        searchSegment : "", 
-                        sku : "", 
-                        userid : "5445", 
-                        pixelHost : "pixel.everesttech.net" 
-                         
-                        , allow3rdPartyPixels: 1}); 
-              EF.main(); 
-        }; 
-        window.EF = window.EF || {};  
-        if (window.EF.main) { 
-            f(); 
-            return; 
-        } 
-        window.EF.onloadCallbacks = window.EF.onloadCallbacks || []; 
-        window.EF.onloadCallbacks[window.EF.onloadCallbacks.length] = f; 
-        if (!window.EF.jsTagAdded) { 
-            var efjs = document.createElement('script'); efjs.type = 'text/javascript'; efjs.async = true; 
-            efjs.src = 'https://www.everestjs.net/static/st.v3.js'; 
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(efjs, s); 
-            window.EF.jsTagAdded=1; 
-        } 
-    })(); 
-</script> 
-<noscript><img src="https://pixel.everesttech.net/5445/t?ev_LP_Visit=1&ev_transid=<transid>" width="1" height="1"/></noscript> 
+<script type="text/javascript">
+    (function() {
+        var f = function() {
+              EF.init({ eventType: "transaction",
+                        transactionProperties : "ev_LP_Visit=1&ev_transid=<transid>",
+                        segment : "",
+                        searchSegment : "",
+                        sku : "",
+                        userid : "5445",
+                        pixelHost : "pixel.everesttech.net"
+
+                        , allow3rdPartyPixels: 1});
+              EF.main();
+        };
+        window.EF = window.EF || {};
+        if (window.EF.main) {
+            f();
+            return;
+        }
+        window.EF.onloadCallbacks = window.EF.onloadCallbacks || [];
+        window.EF.onloadCallbacks[window.EF.onloadCallbacks.length] = f;
+        if (!window.EF.jsTagAdded) {
+            var efjs = document.createElement('script'); efjs.type = 'text/javascript'; efjs.async = true;
+            efjs.src = 'https://www.everestjs.net/static/st.v3.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(efjs, s);
+            window.EF.jsTagAdded=1;
+        }
+    })();
+</script>
+<noscript><img src="https://pixel.everesttech.net/5445/t?ev_LP_Visit=1&ev_transid=<transid>" width="1" height="1"/></noscript>
 
 <!-- Global site tag (gtag.js) - Google AdWords: 813011093 -->
 <script async="" src="./GEHU_files/js"></script>
@@ -129,13 +129,18 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
             }
         }
     </script>
-	    
+
+
+
+
 	    		<style media="screen">
 		   .offer-section{
 				 width:25%;
 			 }
 
-			 @media only screen and (max-width: 600px) {
+
+
+			 @media only screen and (max-width: 480px) {
 			     #enquiry-form-visibility {
 			         right: 0px !important	;
 			     }
@@ -147,11 +152,12 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
 					 #header{
 						 min-height: 88px;
 					}
+
 					body {
 					    padding-top: 27%;
 					}
-				 
-				 .carousel-wrapper:first-child {
+
+					.carousel-wrapper:first-child {
     				padding-right: 0px;
           }
 
@@ -159,22 +165,24 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
     				display: inline-block;
     				width: 100%;
           }
+
 			 }
 
 			 #geu-celebration{
            padding: 0px;
 			 }
 
-
-                .navbar{
+			 .navbar{
 				 margin-bottom: 0;
 			 }
 
 
-		</style>
 
-	    
-        <header>
+
+    </style>
+
+
+    <header>
         <nav id="header" class="navbar navbar-fixed-top">
             <div id="header-container" class="container navbar-container">
                 <div class="navbar-header">
@@ -182,13 +190,24 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
                     <a id="brand" class="navbar-brand logo" href="http://gehu.ac.in/engg-admissions2018/#" data-ss1525723066="1"><img class="img-responsive brandLogo" src="./GEHU_files/gehu-logo.svg" alt="GEU Logo"></a>
                     <a id="geu-celebration" class="navbar-brand anniversary-logo" href="http://gehu.ac.in/engg-admissions2018/#" data-ss1525723066="1"><img class="img-responsive brandLogo anniversary-logo" src="./GEHU_files/anniversary-logo.svg" alt=" Logo"></a>
                 </div>
-                <div id="navbar" class="collapse navbar-collapse">
+          <!--      <div id="navbar" class="collapse navbar-collapse">
                     <h1>Admission Open</h1>
                     <ul class="enquire-now-form">
                         <li class="enquire-now-btn"><a id="enquireNow-btn" data-ss1525723066="1" onclick="document.getElementById('enquiry-form-visibility').style.visibility = 'visible'">Enquire Now </a>
                         </li>
                     </ul>
                 </div>
+            -->
+
+
+						<div id="navbar" class="collapse navbar-collapse">
+											<ul class="enquire-now-form" style="margin-top: 1.6%;">
+													<li class="enquire-now-btn"><a id="enquireNow-btn" data-ss1525723066="1" onclick="document.getElementById('enquiry-form-visibility').style.visibility = 'visible'"  >Enquire Now </a>
+													</li>
+											</ul>
+									</div>
+
+
             </div>
         </nav>
         <!-- Fixed navbar -->
@@ -211,8 +230,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
         <div class="offer-section">
             <img src="./GEHU_files/offer.png" alt="GEHU offer">
         </div>
-        
-	    <ul class="enquire-now-form-content" id="enquiry-form-visibility" style="visibility: hidden ; right:40%;">
+     <ul class="enquire-now-form-content" id="enquiry-form-visibility" style="visibility: hidden ; right:40%;">
 
             <div id="divform">
                 <div class="form-group">
@@ -441,7 +459,6 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
         </ul>
     </div></form>
 
-	    
 		<div class="research-paper-section-wrapper gehu">
         <div class="container">
 					<div class="row">
@@ -449,8 +466,8 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
 					</div>
 				</div>
    </div>
-	
-	
+
+
 <div class="research-paper-section-wrapper gehu">
         <div class="container">
 					<div class="row">
@@ -468,14 +485,14 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
         </div>
     </div>
 </div>
-    
+
+
 <div class="geu-accordion-content"  style="padding-top:0px;">
 		<div class="container" style=" text-align: center;">
 <h3 style="color:white; background-color:#373737;">Admissions Open</h3>
 </div>
-</div>	
-	
-	
+</div>
+
     <div class="geu-accordion-content">
         <div class="container">
 		<h3 style="color:#dc2e27">Diploma Programmes</h3>
@@ -547,7 +564,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
                     </div>
                     <div id="panel3" class="panel-collapse collapse">
                         <div class="panel-body">
-                            
+
                                 <div>
                                     <div class="col-md-12 col-lg-12">
                                         <div class="">
@@ -567,7 +584,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
                                         </div>
                                     </div>
                                 </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -954,7 +971,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
                         </div>
                     </div>
                 </div>
-			</div>	
+			</div>
         </div>
     </div>
 	<div class="geu-accordion-content">
@@ -1283,7 +1300,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
             </div>
         </footer>
     </div>
-    
+
 <script type="text/javascript">
 //<![CDATA[
 var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator1"), document.getElementById("RequiredFieldValidator2"), document.getElementById("RegularExpressionValidator1"), document.getElementById("RequiredFieldValidator7"), document.getElementById("RequiredFieldValidator4"), document.getElementById("RequiredFieldValidator3"), document.getElementById("RequiredFieldValidator5"), document.getElementById("RequiredFieldValidator6"), document.getElementById("RequiredFieldValidator12"));
