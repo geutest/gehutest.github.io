@@ -164,7 +164,10 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
 			 @media only screen and (max-width: 480px) {
 			     #enquiry-form-visibility {
 			         right: 0px !important	;
-				     position: fixed;
+							 top: -1% !important;
+							 position: fixed;
+							 z-index: 100000 !important;
+							 opacity: 1;
 			     }
 
 					 .logo{
@@ -287,7 +290,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
         <div class="offer-section">
             <img src="./GEHU_files/offer.png" alt="GEHU offer">
         </div>
-     <ul class="enquire-now-form-content" id="enquiry-form-visibility" style="visibility: hidden ; right:40%; position: fixed; Top: 10%">
+     <ul class="enquire-now-form-content" id="enquiry-form-visibility" style="visibility: hidden ; right:40%; position: fixed; Top: 12%">
 
             <div id="divform">
                 <div class="form-group">
