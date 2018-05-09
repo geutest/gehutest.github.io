@@ -308,12 +308,11 @@ ul.enquire-now-form {
 }
 
 .enquire-now-btn {
-    padding: 8px 110px 8px 90px;
+    padding: 8px 40px 7px 37px;
     background: #483d3b;
     color: #fff;
     border: none;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-radius: 10px;
     text-transform: uppercase;
     position: relative;
     cursor: pointer;
