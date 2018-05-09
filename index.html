@@ -139,6 +139,16 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
                 }
             }
         }
+	    
+	    function floatFunction(){
+					document.getElementById('enquiry-form-visibility').style.visibility = 'visible';
+          document.getElementById('floating-button').style.visibility= 'hidden';
+				}
+
+				function closeButtonFunction(){
+					document.getElementById('enquiry-form-visibility').style.visibility = 'hidden';
+					document.getElementById('floating-button').style.visibility= 'visible';
+				}
     </script>
 
 
@@ -189,10 +199,21 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
     padding: 20px 0 4px;
           }
 
+		#floating-button{
+	   position: fixed;
+		 right: 0;
+     bottom: 0;
+		 cursor: pointer;
+		 z-index: 9999;
+		 width: 30%;
+		 height: 20%;
+		 display: block !important;
+
+}
+	 }
 
 
-
-			 }
+			
 
 			 #geu-celebration{
            padding: 0px;
@@ -202,7 +223,9 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
 				 margin-bottom: 0;
 			 }
 
-
+  #floating-button{
+				 display: none;
+			 }
 
 
     </style>
@@ -238,6 +261,12 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
         </nav>
         <!-- Fixed navbar -->
     </header>
+	    
+	    <!-- Floating logo -->
+		<div id="floating-button">
+			<img src="./GEHU_files/newenq.png" alt="Enquire" onclick="floatFunction()" width="100%">
+		</div>
+
     <div class="geu-banner-content gehu">
         <div class="geu-banner-carousel owl-theme">
             <div class="items">
